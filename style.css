@@ -1,0 +1,35 @@
+@import url(//db.onlinewebfonts.com/c/2aa1694b8b55e93ebe3c8b8317b4eae9?family=Aachen+BT);
+
+/* font-family: "Aachen BT"; src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot"); src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.woff") format("woff"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.svg#Aachen BT") format("svg"); */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Aachen BT"; src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot");
+}
+/* top banner style started */
+.top-banner{
+    background-image: url(./images/main-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(102, 101, 101, 0.9);
+    /* position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65); */
+}

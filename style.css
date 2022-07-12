@@ -25,11 +25,40 @@ body{
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(102, 101, 101, 0.9);
-    /* position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.65); */
+    background: rgba(15, 15, 15, 0.9);
+}
+header{
+    padding: 40px 80px;
+}
+.nav-bar{
+    display: flex;
+}
+.first-part{
+    width: 47%;
+    padding-top: 40px;
+    text-align: left;
+}
+.logo{
+    width: 5%;
+    text-align: center;
+}
+.second-part{
+    width: 45%;
+    padding-top: 40px;
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+}
+li a:hover{
+    color: #e9a438;
+    transition: 0.3s;
 }
